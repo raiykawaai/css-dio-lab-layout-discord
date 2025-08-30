@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    font-family: Open Sans;
+}
+.header{
+    width: 100%;
+    height: 459px;
+    background-image: url(../img/header-background-img.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-header-conteudo{
+    width: 757px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.container-header-conteudo-titulo{
+    width: 313px;
+    height: 112px;
+}
+.titulo-header{
+    color: #FFFFFF;
+    font-family: Luckiest Guy;
+    font-weight: 400;
+    font-size: 56px;
+    text-align: center;
+}
+.paragrafo-header{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.container-header-conteudo-btn{
+    text-align: center;
+    gap: 16px;
+}
+.btn-baixar{
+    font-family: Open Sans;
+    background-color: #FFFFFF;
+    color: #23272A;
+    border-radius: 28px;
+    padding: 11px 24px;
+}
+.btn-abrir{
+    font-family: Open Sans;
+    color:#FFFFFF;
+    background-color: #23272A;
+    border-radius: 28px;
+    padding: 11px 16px;
+}
+.main-section-1{
+    width: 100%;
+    height: 474px;
+    display: flex;
+    justify-content: center;
+}
+.container-conteudo-section-1{
+    width: 971px;
+    height: 394px;
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}
+.container-conteudo-section-1-titulo{
+    width: 329px;
+    hyphens: 270px;
+    margin-top: 10px;
+}
+.section-1-titulo{
+    font-weight: 800;
+    font-size: 40px;
+}
+.container-conteudo-section-1-paragrafo{
+    width: 348px;
+    height: 88px;
+    margin-top: 16px;
+}
+.section-1-paragrafo{
+    font-weight: 400;
+    font-size: 16px;
+}
+.main-section-2{
+    width: 100%;
+    height: 448px;
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+.container-conteudo-section-2{
+    width: 974px;
+    height: 394px;
+    display: flex;
+    gap: 16px;
+    margin-top: 27px;
+}
+.container-conteudo-section-2-titulo{
+    width: 329px;
+    height: 108px;
+}
+.section-2-titulo{
+    font-weight: 800;
+    font-size: 40px;
+}
+.container-conteudo-section-2-paragrafo{
+    width: 348px;
+    height: 88px;
+}
+.section-2-paragrafo{
+    font-weight: 400;
+    font-size: 16px;
+}
+.container-conteudo-section-2-txt{
+    width: 351px;
+    height: 212px;
+    margin-top: 91px;
+}
+.container-conteudo-section-2-img{
+    width: 607px;
+    height: 394px;
+}
+.main-section-3{
+    width: 100%;
+    height: 528px;
+    display: flex;
+    justify-content: center;
+}
+.container-conteudo-section-3-paragrafo{
+    width: 348px;
+    height: 110px;
+    margin-top: 16px;
+}
+.container-conteudo-section-3-titulo{
+    width: 329px;
+    height: 108px;
+    margin-bottom: 16px;
+}
+.section-3-titulo{
+    font-weight: 800;
+    font-size: 40px;
+}
+.section-3-paragrafo{
+    font-weight: 400;
+    font-size: 16px;
+}
+.container-conteudo-section-3{
+    width: 974px;
+    height: 394px;
+    display: flex;
+    margin-top: 67px;
+}
+.container-conteudo-section-4{
+    width: 802px;
+    height: 664px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 40px;
+}
+.container-conteudo-section-3-txt{
+    width: 802px;
+    height: 180px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.main-section-4{
+    width: 100%;
+    height: 744px;
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-conteudo-section-4-paragrafo{
+    width: 802px;
+    height: 44px;
+    text-align: center;
+}
+.section-4-paragrafo{
+    font-weight: 400;
+    font-size: 16px;
+}
+.container-conteudo-section-4-titulo{
+    width: 608px;
+    height: 80px;
+    text-align: center;
+}
+.section-4-titulo{
+    font-family: Luckiest Guy;
+    font-weight: 400;
+    font-size: 40px;
+}
+.container-conteudo-section-4-img{
+    width: 784px;
+    height: 508px;
+    padding-left: 9px;
+}
+.container-conteudo-section-4-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+footer{
+    width: 100%;
+    height: 134px;
+    background-color: #23272A;
+}
+.container-footer-img{
+    display: flex;
+    justify-content: center;
+}
+.footer-img{
+    margin-top: 35px;
+}
